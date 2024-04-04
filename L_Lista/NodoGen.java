@@ -24,4 +24,14 @@ public class NodoGen<T>{
     public T getValore(){
         return valore;
     }
+
+    public NodoGen<T> getSuccessivo() {
+        return successivo;
+    }
+
+    public void setSuccessivo(NodoGen<T> successivo) {
+        this.successivo = successivo;
+    }
+
+    
 }
